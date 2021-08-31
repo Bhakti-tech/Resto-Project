@@ -291,13 +291,13 @@ background-color: #eee;
     
 }
 
-.cost {
-    margin: auto;
+.cost {    
+   margin: auto;
 }
 
 .cost p {
-    margin-bottom: 1rem;
-    
+    font-weight: 500;
+    box-sizing: border-box;   
 }
 .buybtn {
     text-decoration: none;
@@ -308,6 +308,8 @@ background-color: #eee;
     color: white;
     font-size: 1rem;
     font-weight: 700;
+    box-sizing: border-box;   
+    
 }
 
 footer {    
@@ -326,13 +328,14 @@ footer {
 }
 .footer ul li a{
     color: white;
+    padding: 1rem;
     
 }
 
 .footer p {
     color: #fff;
-    margin-bottom: 2rem;
     text-transform: capitalize;
+    padding: 1rem;
 }
 
 /*Media queries*/
@@ -379,11 +382,11 @@ footer {
     }
 
 }
-
-@media screen and (max-width: 1600px) {
+/*
+@media screen and (max-width: 800px) {
     .buybtn {
         font-size: 0.7rem;
         padding: .2rem;
-    }
+    } */
 
 }
