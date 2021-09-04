@@ -271,8 +271,9 @@ background-color: #eee;
     border-radius: 5px;
     padding: 0.2rem 1rem;
     margin-bottom: 1rem;
-    align-items: center;
+    justify-content: space-between;
     text-align: left;
+       
 }
 
 .img img {
@@ -286,13 +287,13 @@ background-color: #eee;
 }
 
 .order-item-text {
-    width: 75%;
-    padding: 0 0.5rem;
-    
+    width: 75%;    
 }
 
 .cost {    
    margin: auto;
+   flex-shrink: 0;
+   
 }
 
 .cost p {
