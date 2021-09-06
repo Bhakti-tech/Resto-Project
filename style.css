@@ -273,12 +273,13 @@ background-color: #eee;
     margin-bottom: 1rem;
     justify-content: space-between;
     text-align: left;
-       
+    align-items: center;
 }
 
 .img img {
     height: 100px;
     width: 100px;
+    
 }
 
 .order p {
@@ -298,6 +299,7 @@ background-color: #eee;
 
 .cost p {
     font-weight: 500;
+    padding-bottom: 1rem;
     box-sizing: border-box;   
 }
 .buybtn {
@@ -390,4 +392,15 @@ footer {
         padding: .2rem;
     } 
 
+    .order p {
+        font-size: 1rem;
+        margin: .5rem;;
+    }
+    .order-section {
+        margin: 0.3rem;
+    }
+
+    .q-head {
+        font-size: 1.2rem;
+    }
 }
